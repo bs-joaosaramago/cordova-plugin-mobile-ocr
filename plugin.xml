@@ -63,16 +63,16 @@
 <header-file src="src/ios/Textocr.h" target-dir="OcrPlugin"/>
 <source-file src="src/ios/Textocr.m" target-dir="OcrPlugin"/>
 
- <podspec>
+ <!--<podspec>
       <config>
         <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
         <pod name="MLKitTextRecognition" />
       </pods>
-    </podspec>
+    </podspec>-->
 
-<!--<framework src="GoogleMobileVision/TextDetector" type="podspec" spec="~> 1.11.2"/> -->
+<framework src="GoogleMobileVision/TextDetector" /> 
 
 <!--<framework src="GTMSessionFetcher" type="podspec" spec="~> 1.1.15"/>-->
 <!--<framework src="Protobuf" type="podspec" spec="~> 3.6.0"/>-->
