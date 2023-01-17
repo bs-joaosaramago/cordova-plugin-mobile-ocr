@@ -72,7 +72,7 @@
       </pods>
     </podspec>-->
 
-<framework src="GoogleMobileVision/TextDetector" /> 
+<framework src="GoogleMobileVision/TextDetector" spec="~> 1.6.0"/> 
 
 <!--<framework src="GTMSessionFetcher" type="podspec" spec="~> 1.1.15"/>-->
 <!--<framework src="Protobuf" type="podspec" spec="~> 3.6.0"/>-->
